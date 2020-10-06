@@ -1,0 +1,22 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'poppins'; sans-sefirf;
+}
+
+.box
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,100,33);
+    background: linear-gradient(90deg, rgba(255,100,33,1) 0%, rgba(255,166,68,1) 48%, rgba(252,69,157,1) 100%); 
+}
