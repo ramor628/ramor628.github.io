@@ -6,9 +6,9 @@
     font-family: 'Poppins', sans-serif;
 }
 section{
-    position: relative;
+    position: absolute;
     width: 960px;
-    height: 100%;
+    height: 200%;
     background: radial-gradient(#333,#000);
     display: flex;
     justify-content: center;
@@ -20,7 +20,8 @@ section h2{
     font-size: 2em;
     text-transform: lowercase;
     position: absolute;
-    top: 10%;
+    top: 15%;
+    opacity: 80%;
 }
 section .set{
     position: absolute;
@@ -112,7 +113,12 @@ section p{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 1%;
+    top: -2%;
     margin: 35%;
     position: absolute;
+    opacity: 50%;
+}
+section audio{
+    align-items: center;
+    top: 5%;
 }
