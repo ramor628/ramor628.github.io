@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900;&display=swap');
-*{
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    background: radial-gradient(rgb(2, 215, 193),rgb(21, 138, 126));
+}
+h2{
+    color: #fff;
+    font-size: 2.5em;
+    text-transform: lowercase;
+    position: relative;
+    text-align: center;
+    top: 30%;
 }
 section{
     position: absolute;
     width: 100%;
     height: 250%;
-    background: radial-gradient(rgb(2, 215, 193),rgb(21, 138, 126));
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-}
-section h2{
-    color: #fff;
-    font-size: 2.5em;
-    text-transform: lowercase;
-    position: absolute;
-    top: 12%;
 }
 section .set{
     position: absolute;
@@ -113,7 +114,7 @@ section p{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 17%;
+    top: 11%;
     position: absolute;
     opacity: 70%;
 }
@@ -122,7 +123,7 @@ section p2{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 20%;
+    top: 15%;
     position: absolute;
     opacity: 70%;
 }
@@ -131,7 +132,7 @@ section p3{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 23%;
+    top: 18%;
     position: absolute;
     opacity: 70%;
 }
@@ -140,7 +141,7 @@ section p4{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 26%;
+    top: 21%;
     position: absolute;
     opacity: 70%;
 }
@@ -149,7 +150,7 @@ section p5{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 29%;
+    top: 24%;
     position: absolute;
     opacity: 70%;
 }
@@ -158,7 +159,7 @@ section p6{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 32%;
+    top: 27%;
     position: absolute;
     opacity: 70%;
 }
@@ -167,7 +168,7 @@ section p7{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 35%;
+    top: 30%;
     position: absolute;
     opacity: 70%;
 }
@@ -176,7 +177,7 @@ section p8{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 38%;
+    top: 33%;
     position: absolute;
     opacity: 70%;
 }
@@ -185,7 +186,7 @@ section p9{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 41%;
+    top: 36%;
     position: absolute;
     opacity: 70%;
 }
@@ -194,7 +195,7 @@ section p10{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 44%;
+    top: 39%;
     position: absolute;
     opacity: 70%;
 }
@@ -203,7 +204,7 @@ section p11{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 47%;
+    top: 42%;
     position: absolute;
     opacity: 70%;
 }
@@ -212,7 +213,7 @@ section p12{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 50%;
+    top: 45%;
     position: absolute;
     opacity: 70%;
 }
@@ -221,7 +222,7 @@ section p13{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 53%;
+    top: 48%;
     position: absolute;
     opacity: 70%;
 }
@@ -230,7 +231,7 @@ section p14{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 56%;
+    top: 51%;
     position: absolute;
     opacity: 70%;
 }
@@ -239,7 +240,7 @@ section p15{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 59%;
+    top: 54%;
     position: absolute;
     opacity: 70%;
 }
@@ -248,7 +249,7 @@ section p16{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 62%;
+    top: 57%;
     position: absolute;
     opacity: 70%;
 }
@@ -257,7 +258,7 @@ section p17{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 65%;
+    top: 60%;
     position: absolute;
     opacity: 70%;
 }
@@ -266,7 +267,7 @@ section p18{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 68%;
+    top: 63%;
     position: absolute;
     opacity: 70%;
 }
@@ -275,7 +276,7 @@ section p19{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 71%;
+    top: 66%;
     position: absolute;
     opacity: 70%;
 }
@@ -284,7 +285,7 @@ section p20{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 74%;
+    top: 69%;
     position: absolute;
     opacity: 70%;
 }
@@ -293,7 +294,7 @@ section p21{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 77%;
+    top: 72%;
     position: absolute;
     opacity: 70%;
 }
@@ -302,7 +303,7 @@ section p22{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 80%;
+    top: 75%;
     position: absolute;
     opacity: 70%;
 }
@@ -311,7 +312,7 @@ section p23{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 83%;
+    top: 78%;
     position: absolute;
     opacity: 70%;
 }
@@ -320,7 +321,7 @@ section p24{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 86%;
+    top: 81%;
     position: absolute;
     opacity: 70%;
 }
@@ -329,7 +330,7 @@ section p25{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 89%;
+    top: 84%;
     position: absolute;
     opacity: 70%;
 }
@@ -338,7 +339,7 @@ section p26{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 92%;
+    top: 87%;
     position: absolute;
     opacity: 70%;
 }
@@ -347,7 +348,7 @@ section p27{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 95%;
+    top: 90%;
     position: absolute;
     opacity: 70%;
 }
@@ -356,7 +357,7 @@ section p28{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 97%;
+    top: 93%;
     position: absolute;
     opacity: 70%;
 }
@@ -365,7 +366,7 @@ section p29{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 100%;
+    top: 96%;
     position: absolute;
     opacity: 70%;
 }
@@ -374,7 +375,7 @@ section p30{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 103%;
+    top: 99%;
     position: absolute;
     opacity: 70%;
 }
@@ -383,7 +384,7 @@ section p31{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 106%;
+    top: 102%;
     position: absolute;
     opacity: 70%;
 }
@@ -392,7 +393,7 @@ section p32{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 109%;
+    top: 105%;
     position: absolute;
     opacity: 70%;
 }
@@ -401,7 +402,7 @@ section p33{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 112%;
+    top: 108%;
     position: absolute;
     opacity: 70%;
 }
@@ -410,7 +411,7 @@ section p34{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 115%;
+    top: 111%;
     position: absolute;
     opacity: 70%;
 }
@@ -419,7 +420,7 @@ section p35{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 118%;
+    top: 114%;
     position: absolute;
     opacity: 70%;
 }
@@ -428,7 +429,7 @@ section p36{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 121%;
+    top: 117%;
     position: absolute;
     opacity: 70%;
 }
@@ -437,7 +438,7 @@ section p37{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 124%;
+    top: 120%;
     position: absolute;
     opacity: 70%;
 }
@@ -446,11 +447,11 @@ section p38{
     font-size: 1em;
     text-transform: lowercase;
     text-align: center;
-    top: 127%;
+    top: 123%;
     position: absolute;
     opacity: 70%;
 }
 section audio{
     align-items: center;
-    top: 5%;
+    top: 0%;
 }
