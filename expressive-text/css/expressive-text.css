@@ -8,8 +8,8 @@
 section{
     position: absolute;
     width: 100%;
-    height: 200vw;
-    background: radial-gradient(rgb(33, 214, 196),rgb(19, 122, 107));
+    height: 250%;
+    background: radial-gradient(rgb(2, 215, 193),rgb(21, 138, 126));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,11 +17,10 @@ section{
 }
 section h2{
     color: #fff;
-    font-size: 2em;
+    font-size: 2.5em;
     text-transform: lowercase;
     position: absolute;
     top: 12%;
-    opacity: 80%;
 }
 section .set{
     position: absolute;
@@ -116,7 +115,7 @@ section p{
     text-align: center;
     top: 17%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p2{
     color: #fff;
@@ -125,7 +124,7 @@ section p2{
     text-align: center;
     top: 20%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p3{
     color: #fff;
@@ -134,7 +133,7 @@ section p3{
     text-align: center;
     top: 23%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p4{
     color: #fff;
@@ -143,7 +142,7 @@ section p4{
     text-align: center;
     top: 26%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p5{
     color: #fff;
@@ -152,7 +151,7 @@ section p5{
     text-align: center;
     top: 29%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p6{
     color: #fff;
@@ -161,7 +160,7 @@ section p6{
     text-align: center;
     top: 32%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p7{
     color: #fff;
@@ -170,7 +169,7 @@ section p7{
     text-align: center;
     top: 35%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p8{
     color: #fff;
@@ -179,7 +178,7 @@ section p8{
     text-align: center;
     top: 38%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p9{
     color: #fff;
@@ -188,7 +187,7 @@ section p9{
     text-align: center;
     top: 41%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p10{
     color: #fff;
@@ -197,7 +196,7 @@ section p10{
     text-align: center;
     top: 44%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p11{
     color: #fff;
@@ -206,7 +205,7 @@ section p11{
     text-align: center;
     top: 47%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p12{
     color: #fff;
@@ -215,7 +214,7 @@ section p12{
     text-align: center;
     top: 50%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p13{
     color: #fff;
@@ -224,7 +223,7 @@ section p13{
     text-align: center;
     top: 53%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p14{
     color: #fff;
@@ -233,7 +232,7 @@ section p14{
     text-align: center;
     top: 56%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p15{
     color: #fff;
@@ -242,7 +241,7 @@ section p15{
     text-align: center;
     top: 59%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p16{
     color: #fff;
@@ -251,7 +250,7 @@ section p16{
     text-align: center;
     top: 62%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p17{
     color: #fff;
@@ -260,7 +259,7 @@ section p17{
     text-align: center;
     top: 65%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p18{
     color: #fff;
@@ -269,7 +268,7 @@ section p18{
     text-align: center;
     top: 68%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p19{
     color: #fff;
@@ -278,7 +277,7 @@ section p19{
     text-align: center;
     top: 71%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p20{
     color: #fff;
@@ -287,7 +286,7 @@ section p20{
     text-align: center;
     top: 74%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p21{
     color: #fff;
@@ -296,7 +295,7 @@ section p21{
     text-align: center;
     top: 77%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p22{
     color: #fff;
@@ -305,7 +304,7 @@ section p22{
     text-align: center;
     top: 80%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p23{
     color: #fff;
@@ -314,7 +313,7 @@ section p23{
     text-align: center;
     top: 83%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p24{
     color: #fff;
@@ -323,7 +322,7 @@ section p24{
     text-align: center;
     top: 86%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p25{
     color: #fff;
@@ -332,7 +331,7 @@ section p25{
     text-align: center;
     top: 89%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p26{
     color: #fff;
@@ -341,7 +340,7 @@ section p26{
     text-align: center;
     top: 92%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p27{
     color: #fff;
@@ -350,7 +349,7 @@ section p27{
     text-align: center;
     top: 95%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p28{
     color: #fff;
@@ -359,7 +358,7 @@ section p28{
     text-align: center;
     top: 97%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p29{
     color: #fff;
@@ -368,7 +367,7 @@ section p29{
     text-align: center;
     top: 100%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p30{
     color: #fff;
@@ -377,7 +376,7 @@ section p30{
     text-align: center;
     top: 103%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p31{
     color: #fff;
@@ -386,7 +385,7 @@ section p31{
     text-align: center;
     top: 106%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
 }
 section p32{
     color: #fff;
@@ -395,7 +394,61 @@ section p32{
     text-align: center;
     top: 109%;
     position: absolute;
-    opacity: 50%;
+    opacity: 70%;
+}
+section p33{
+    color: #fff;
+    font-size: 1em;
+    text-transform: lowercase;
+    text-align: center;
+    top: 112%;
+    position: absolute;
+    opacity: 70%;
+}
+section p34{
+    color: #fff;
+    font-size: 1em;
+    text-transform: lowercase;
+    text-align: center;
+    top: 115%;
+    position: absolute;
+    opacity: 70%;
+}
+section p35{
+    color: #fff;
+    font-size: 1em;
+    text-transform: lowercase;
+    text-align: center;
+    top: 118%;
+    position: absolute;
+    opacity: 70%;
+}
+section p36{
+    color: #fff;
+    font-size: 1em;
+    text-transform: lowercase;
+    text-align: center;
+    top: 121%;
+    position: absolute;
+    opacity: 70%;
+}
+section p37{
+    color: #fff;
+    font-size: 1em;
+    text-transform: lowercase;
+    text-align: center;
+    top: 124%;
+    position: absolute;
+    opacity: 70%;
+}
+section p38{
+    color: #fff;
+    font-size: 1em;
+    text-transform: lowercase;
+    text-align: center;
+    top: 127%;
+    position: absolute;
+    opacity: 70%;
 }
 section audio{
     align-items: center;
