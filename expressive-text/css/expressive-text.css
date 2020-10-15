@@ -6,13 +6,19 @@ body{
     background-size: cover;
     background: radial-gradient(rgb(2, 215, 193),rgb(21, 138, 126));
 }
-h2{
-    color: #fff;
-    font-size: 2.5em;
+.song-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
     text-transform: lowercase;
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: 30%;
+    top: 6%;
+    transition: 0.6s;
+}
+.song-title:hover {
+    font-size: 1.8em;
+    color: rgb(215, 27, 55);
+    top: 5%;
 }
 section{
     position: absolute;
@@ -453,5 +459,5 @@ section p38{
 }
 section audio{
     align-items: center;
-    top: 0%;
+    top: 1%;
 }
