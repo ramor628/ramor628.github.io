@@ -1,30 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900;&display=swap');
-body{
+*{
+    box-sizing: content-box;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     font-family: 'Poppins', sans-serif;
-    background-size: cover;
-    background: #ffff;
 }
-.card {
+.parent-1{
+    height: 20vh;
+    border: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.child-1 img{
+    padding: 0px;
+    width: 200px;
+}
+.parent{
+    height: 100vh;
+    border: 20px;
+    display: flex;
+    overflow: visible;
+    align-content: flex-start;
+}
+.child1 img{
+    padding: 40px;
+    width: 280px;
+}
+.child2 img{
+    padding: -10px;
+    width: 280px;
+    align-self: center;
+}
+.sidebar{
+    position: relative;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background: rgb(253, 234, 0);
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    color: black;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
     position: absolute;
-    width: 50%;
-    height: 50%;
-    margin: 0px;
+    cursor: pointer;
+    background: white;
+    border-radius: 3px;
 }
-.card-image{
-    max-width: 65%;
-    height: 20%;
-}
-.card-image2{
-    max-width: 110%;
-    height: 110%;
-    margin: 60px;
-    top: 50px;
-}
-.card-image3{
-    max-width: 110%;
-    height: 110%;
-    margin: 60px;
-    align right: 10px;
+label #btn{
+    right: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: black;
+    padding: 6px 12px;
 }
