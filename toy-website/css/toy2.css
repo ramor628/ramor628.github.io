@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #FFFFFB;
+    text-align: center;
+    font-size: 1.2rem;
+    justify-content: center;
+    background: rgba(35, 28, 73, 1);
+}
+.container{
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .box{
+    position: relative;
+    width: 898px;
+    height: 606px;
+    background: rgba(249, 227, 157, 1);
+    border-radius: 130px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container1{
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container1 .box1{
+    position: absolute;
+    left: 22%;
+    top: 18%;
+    width: 20vw;
+    height: 20vw;
+    background:  rgba(35, 28, 73, 1);
+    border-radius: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-content: center;
+}
+.container1 .box2{
+    position: absolute;
+    left: 22%;
+    bottom: 18%;
+    width: 20vw;
+    height: 20vw;
+    background:  rgba(35, 28, 73, 1);
+    border-radius: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container1 .box3{
+    position: absolute;
+    right: 22%;
+    top: 18%;
+    width: 20vw;
+    height: 20vw;
+    background:  rgba(35, 28, 73, 1);
+    border-radius: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container1 .box4{
+    position: absolute;
+    right: 22%;
+    bottom: 18%;
+    width: 20vw;
+    height: 20vw;
+    background:  rgba(35, 28, 73, 1);
+    border-radius: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}

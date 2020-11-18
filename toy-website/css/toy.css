@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #FFFFFB;
+    text-align: center;
+    font-size: 1.2rem;
+    justify-content: center;
+    background: rgba(35, 28, 73, 1);
+}
+.container{
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .box{
+    position: relative;
+    background: rgba(158, 227, 248, 1);
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container .box2{
+    position: relative;
+    background: rgba(249, 227, 157, 1);
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
