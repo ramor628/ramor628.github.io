@@ -78,6 +78,12 @@ body{
     box-sizing: border-box;
     overflow: hidden;
 }
+.container1 .box3 .wave{
+    align-items: center;
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+}
 .container1 .box4{
     position: absolute;
     right: 35%;
