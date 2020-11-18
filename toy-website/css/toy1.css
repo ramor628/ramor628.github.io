@@ -1,6 +1,4 @@
-*{
-    cursor: ;
-}
+
 body{
     margin: 0;
     padding: 0;
@@ -128,4 +126,13 @@ body{
     bottom: -13%;
     width: 18vw;
     height: 10vw;
+}
+#image-container {
+     width: 60px;
+     position: absolute;
+ }
+#image-container img{
+    width: 100%;
+    display: block;
+    position: absolute;
 }

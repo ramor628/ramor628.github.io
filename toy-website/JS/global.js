@@ -1,18 +1,15 @@
-window.onload = function() {
-    var button = document.body.getElementById('button1');
-    var sound = document.body.getElementById("A")
+window.addEventListener("load", function() {
+    var image = document.getElementById('image-container');
+    var image = document.getElementById('note');
 }
 
-document.getElementById('game').onmousemove = musicNote.mouseMove;
+function follow(e) {
 
-musicNote.mouseMove = function(mouseMovement) {
-    const note = document.getElementById('note');
-    let xPosition;
-    let yPosition;
-    if (mouseMovement) {
-        xPosition = mouseMovement.pageX;
-        yPosition = mouseMovement.pageY;
-        note.style.top = yPosition + 1 + 'px';
-        note.style.left = xPosition + 'px';
-    };
-};
+    var x = e.x;
+    var y = e.y;
+
+    image.style.left = x + 'px';
+    image.style.top = y + 'px';
+}
+
+document.body.addEventListener('mousemove', follow);

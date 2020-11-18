@@ -40,6 +40,7 @@ body{
     box-sizing: border-box;
     overflow: hidden;
     align-content: center;
+    image-orientation: ;
 }
 .container1 .box2{
     position: absolute;

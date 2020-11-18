@@ -34,3 +34,12 @@ body{
     box-sizing: border-box;
     overflow: hidden;
 }
+#image-container {
+    width: 60px;
+    position: absolute;
+}
+#image-container img{
+   width: 100%;
+   display: block;
+   position: absolute;
+}
