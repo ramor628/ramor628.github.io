@@ -104,21 +104,21 @@ body{
 .container1 .audio1{
     position: relative;
     right: 320%;
-    bottom: 3%;
+    bottom: -11%;
     width: 18vw;
     height: 10vw;
 }
 .container1 .audio2{
     position: relative;
     right: 320%;
-    bottom: -26%;
+    bottom: -39%;
     width: 18vw;
     height: 10vw;
 }
 .container1 .audio3{
     position: relative;
     right: 170%;
-    bottom: 16%;
+    bottom: 15%;
     width: 18vw;
     height: 10vw;
 }
