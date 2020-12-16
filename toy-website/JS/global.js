@@ -1,15 +1,30 @@
-window.addEventListener("load", function() {
-    var image = document.getElementById('image-container');
-    var image = document.getElementById('note');
-}
-
-function follow(e) {
-
-    var x = e.x;
-    var y = e.y;
-
-    image.style.left = x + 'px';
-    image.style.top = y + 'px';
-}
-
-document.body.addEventListener('mousemove', follow);
+//on mouseEvent Properties
+function getMouseCoords(e) {
+    var e = e || window.event;
+    document.getElementById("msg").innerHTML =
+      e.clientX + ", " + e.clientY + "<br>" + e.screenX + ", " + e.screenY;
+  }
+  
+  var followCursor = (function () {
+    var s = document.getElementById("object");
+    s.style.position = "absolute";
+  
+    return {
+      init: function () {
+        document.body.appendChild(s);
+      },
+  
+      run: function (e) {
+        var e = e || window.event;
+        s.style.left = e.clientX - 5 + "px";
+        s.style.top = e.clientY - 5 + "px";
+        getMouseCoords(e);
+      }
+    };
+  })();
+  
+  window.onload = function () {
+    followCursor.init();
+    document.body.onmousemove = followCursor.run;
+  };
+  
