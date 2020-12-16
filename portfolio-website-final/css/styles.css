@@ -287,16 +287,16 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
+.skills__premiere{
   width: 50%;
 }
-.skills__css{
+.skills__illustrator{
   width: 80%;
 }
-.skills__js{
+.skills__photoshop{
   width: 65%;
 }
-.skills__ux{
+.skills__indesign{
   width: 65%;
 }
 .skills__img{
