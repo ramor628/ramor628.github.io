@@ -140,16 +140,17 @@ body{
 }
 
 .footer{
-	max-width: 935px;
-	width: 100%;
-	margin: 0 auto;
-	padding: 40px 0;
-	display: flex;
+	display: block;
+	margin: 0 auto 20px;
+    text-align: center;
+	color: #7e7e7e;
+	font-size: 12px; 
+	border-radius: 3px;
 	justify-content: space-between;
 }
 
 .footer .links ul li{
-	display: inline-block;
+	display: inline-flex;
 	margin-right: 10px;
 }
 
@@ -158,6 +159,11 @@ body{
 	font-size: 12px;
 }
 
-.footer .copyright{
-	color: #7e7e7e;	
+.copyright{
+	display: block;
+	margin: 0 auto 20px;
+    text-align: center;
+	color: #7e7e7e;
+	font-size: 12px;
+	border-radius: 3px;
 }
